@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+}
+.horizontalScrolling {
+  width: 600px;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.screen p {
+  width: 100%;
+  font-size: 12px;
+  background: #000;
+  color: #fff;
+  height: 15px;
+  width: 600px;
+  padding-left: 25px;
+}
+.grid {
+  width: 600px;
+}
+
+.grid table {
+  border-collapse: collapse;
+}
+
+.grid td {
+  width: 25px;
+  height: 25px;
+  border: 1px solid gray;
+  text-align: center;
+  float: left;
+  margin: 1px;
+}
+
+.notd {
+  border: 0px solid gray !important;
+  text-align: center !important;
+  float: left !important;
+  margin: 1px !important;
+}
+.grid td:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: #2abdb1;
+  color: #fff;
+}
+
+.available {
+  color: #333;
+}
+.unAvailable {
+  background: silver;
+  color: #fff;
+}
+li {
+  list-style: none;
+}

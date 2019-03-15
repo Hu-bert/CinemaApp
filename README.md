@@ -1,2 +1,0 @@
-# CinemaApp
-Created with CodeSandbox
